@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 16px;
+}
+
+button {
+  background: none;
+  border: 0;
+}
+
+a {
+  color: #333;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.shadow {
+  box-shadow: 0 0 5px 2px #666;
+  margin-bottom: 5px;
+}
+
+.accordion-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  transition: all 0.5s;
+}
+
+.accordion-list .accordion-list {
+  opacity: 0;
+  max-height: 0;
+}
+
+.active + .accordion-list {
+  opacity: 1;
+  max-height: 100vh;
+}
+
+.active + .accordion-list .accordion-item {
+  background-color: #ccc;
+}
+
+.accordion-item {
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+
+.accordion-toggle {
+  position: absolute;
+  right: 15px;
+  top: 7px;
+  width: 30px;
+  height: 30px;
+}
+
+.nav-link {
+  padding: 15px;
+  display: flex;
+  width: calc(100% - 30px);
+  border-bottom: 1px solid #ccc;
+}
+
+.slider-column {
+  transform: translateX(-100%);
+  left: 0;
+  background-color: #fff;
+  height: 100vh;
+  width: 60vw;
+  max-width: 330px;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  transition: transform 500ms linear, visibility 500ms;
+  visibility: hidden;
+  z-index: 2;
+}
+
+.slider-column.active {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.slider-header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.slider-title {
+  justify-content: center;
+  width: 100%;
+}
+
+.slider-close {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  padding: 0;
+  border: 1px solid;
+}
+
+.slider-overlay {
+  display: flex;
+  flex-direction: row;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: opacity 500ms linear, visibility 500ms;
+  visibility: hidden;
+  width: 100%;
+}
+
+.slider-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}

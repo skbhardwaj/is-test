@@ -1,0 +1,251 @@
+{
+    "depth": 0,
+    "children": [
+        {
+            "depth": 1,
+            "label": "Link 1",
+            "link": "/link-1.html",
+            "children": [
+                {
+                    "depth": 2,
+                    "label": "Link 11",
+                    "link": "/link-11.html",
+                    "children": [
+                        {
+                            "depth": 3,
+                            "label": "Link 111",
+                            "link": "/link-111.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 112",
+                            "link": "/link-112.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 113",
+                            "link": "/link-113.html",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "depth": 2,
+                    "label": "Link 12",
+                    "link": "/link-12.html",
+                    "children": [
+                        {
+                            "depth": 3,
+                            "label": "Link 121",
+                            "link": "/link-121.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 122",
+                            "link": "/link-122.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 123",
+                            "link": "/link-123.html",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "depth": 2,
+                    "label": "Link 13",
+                    "link": "/link-13.html",
+                    "children": [
+                        {
+                            "depth": 3,
+                            "label": "Link 131",
+                            "link": "/link-131.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 132",
+                            "link": "/link-132.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 133",
+                            "link": "/link-133.html",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "depth": 1,
+            "label": "Link 2",
+            "link": "/link-2.html",
+            "children": [
+                {
+                    "depth": 2,
+                    "label": "Link 21",
+                    "link": "/link-21.html",
+                    "children": [
+                        {
+                            "depth": 3,
+                            "label": "Link 211",
+                            "link": "/link-211.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 212",
+                            "link": "/link-212.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 213",
+                            "link": "/link-213.html",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "depth": 2,
+                    "label": "Link 22",
+                    "link": "/link-22.html",
+                    "children": [
+                        {
+                            "depth": 3,
+                            "label": "Link 221",
+                            "link": "/link-221.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 222",
+                            "link": "/link-222.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 223",
+                            "link": "/link-223.html",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "depth": 2,
+                    "label": "Link 23",
+                    "link": "/link-23.html",
+                    "children": [
+                        {
+                            "depth": 3,
+                            "label": "Link 231",
+                            "link": "/link-231.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 232",
+                            "link": "/link-232.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 233",
+                            "link": "/link-233.html",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "depth": 1,
+            "label": "Link 3",
+            "link": "/link-3.html",
+            "children": [
+                {
+                    "depth": 2,
+                    "label": "Link 31",
+                    "link": "/link-31.html",
+                    "children": [
+                        {
+                            "depth": 3,
+                            "label": "Link 311",
+                            "link": "/link-311.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 312",
+                            "link": "/link-312.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 313",
+                            "link": "/link-313.html",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "depth": 2,
+                    "label": "Link 32",
+                    "link": "/link-32.html",
+                    "children": [
+                        {
+                            "depth": 3,
+                            "label": "Link 321",
+                            "link": "/link-321.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 322",
+                            "link": "/link-322.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 323",
+                            "link": "/link-323.html",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "depth": 2,
+                    "label": "Link 33",
+                    "link": "/link-33.html",
+                    "children": [
+                        {
+                            "depth": 3,
+                            "label": "Link 331",
+                            "link": "/link-331.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 332",
+                            "link": "/link-332.html",
+                            "children": []
+                        },
+                        {
+                            "depth": 3,
+                            "label": "Link 333",
+                            "link": "/link-333.html",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

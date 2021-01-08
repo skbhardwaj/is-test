@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World - Internetstores!</title>
+
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script defer src="./scripts/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Internetstores Test!</h1>
+      <nav class="navigation">
+        <aside class="slider-column">
+          <div class="slider-header shadow">
+            <p class="slider-title">Menu</p>
+            <button class="slider-close" title="close">X</button>
+          </div>
+          <section class="slider-content">
+            <ul class="accordion-list ul-0"></ul>
+          </section>
+        </aside>
+        <div class="slider-overlay" role="dialog"></div>
+      </nav>
+      <button type="button" class="btn-open" title="Click to open drawer">
+        Click to open Drawer
+      </button>
+
+      <script id="depth" type="text/template">
+        <li class="accordion-item">
+            <a class="nav-link bold" href="{{link}}" title="{{label}}">{{label}}</a>
+            <button class="accordion-toggle" title="expand">+</button>
+            <ul class="accordion-list ul-{{depth}}{{index}}"></ul>
+        </li>
+      </script>
+    </header>
+  </body>
+</html>
